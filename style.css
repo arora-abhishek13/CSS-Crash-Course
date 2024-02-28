@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(143, 126, 126);
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin: auto;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: yellowgreen;
+}
+.container{
+     width: 500px;
+     margin: auto;
+}
+.button{
+    background-color: blue;
+    color: red;
+    padding: 10px 15px;
+    border: double darkgoldenrod;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color: blueviolet;
+    color: brown;
+    border: 10px black solid;
+    padding: 50px;
+    margin: 20px;
+} 
+.box-1 h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 600;
+     font-style: italic;
+     text-decoration: underline;
+     text-transform: uppercase;
+     letter-spacing: 0.2em;
+     word-spacing: 1em;
+
+}
+.categories{
+    border: 2px red solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+.categories ul{
+     padding: 2px;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted black;
+    list-style-image: url('../images/unitech.jpg');
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type=text], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px red solid;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: black;
+}
+.p-box{
+    width: 1000px;
+    height: 900px;
+    border: 2px red solid;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/unitech.jpg');
+    background-position:100px 200px;
+    background-position: center center;
+}
+.p-box h1{
+     position: relative;
+     top: 100px;
+     left: 200px;
+}
+.p-box h2{
+    position: relative; 
+    top: 400px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+    background: red;
+
+}
+.my-list li:last-child{
+    background: burlywood;
+}
+.my-list li:nth-child(5){
+    background: yellow;
+}
+.my-list li:nth-child(even){
+    background: green;
+}
